@@ -1,0 +1,244 @@
+.navigation-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkorange);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.artists2,
+.contact2,
+.home2,
+.music3 {
+  margin: 0;
+  position: absolute;
+  top: 48px;
+  left: 658px;
+  font-size: var(--font-size-109xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 559px;
+  height: 126px;
+  z-index: 1;
+}
+.artists2,
+.contact2,
+.home2 {
+  top: 115px;
+  left: 1639px;
+  font-size: var(--font-size-13xl);
+  width: 166px;
+  height: 45px;
+  cursor: pointer;
+}
+.artists2,
+.contact2 {
+  top: 145px;
+  left: 1659px;
+}
+.contact2 {
+  top: 175px;
+  left: 1666px;
+  height: 32px;
+}
+.arrow-icon,
+.navigation-inner,
+.navigation-item {
+  position: absolute;
+  top: 133px;
+  left: 1533px;
+  width: 126px;
+  height: 14.7px;
+  cursor: pointer;
+  z-index: 1;
+}
+.arrow-icon,
+.navigation-inner {
+  top: 164px;
+}
+.arrow-icon {
+  top: 194px;
+}
+.image-2-icon1,
+.image-3-icon,
+.image-4-icon,
+.image-5-icon {
+  position: absolute;
+  top: 269px;
+  left: 172px;
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-3-icon,
+.image-4-icon,
+.image-5-icon {
+  top: 632px;
+  left: 367px;
+  width: 326px;
+  height: 317px;
+}
+.image-4-icon,
+.image-5-icon {
+  top: 236px;
+  left: 553px;
+  width: 279px;
+  height: 279px;
+}
+.image-5-icon {
+  top: 540px;
+  left: 717px;
+  width: 298px;
+  height: 282px;
+}
+.image-6-icon,
+.image-7-icon,
+.image-8-icon,
+.image-9-icon {
+  position: absolute;
+  top: 220px;
+  left: 938px;
+  width: 271px;
+  height: 266px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-7-icon,
+.image-8-icon,
+.image-9-icon {
+  top: 638px;
+  left: 1056px;
+  width: 306px;
+  height: 306px;
+}
+.image-8-icon,
+.image-9-icon {
+  top: 353px;
+  left: 1244px;
+  width: 236px;
+  height: 241px;
+}
+.image-9-icon {
+  top: 609px;
+  left: 1436px;
+  width: 286px;
+  height: 286px;
+}
+.solar-wind-swing {
+  position: absolute;
+  top: 236px;
+  left: 172px;
+  font-weight: 300;
+  z-index: 1;
+}
+.asteroid-ambient,
+.comet-classical,
+.pulsar-pop,
+.wormhole-wave {
+  position: absolute;
+  top: 205px;
+  left: 553px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 122px;
+  z-index: 1;
+}
+.asteroid-ambient,
+.comet-classical,
+.pulsar-pop {
+  top: 195px;
+  left: 936px;
+  min-width: 124px;
+}
+.asteroid-ambient,
+.pulsar-pop {
+  top: 329px;
+  left: 1244px;
+  min-width: 123px;
+}
+.pulsar-pop {
+  top: 585px;
+  left: 1644px;
+  min-width: 83px;
+}
+.meteor-metal,
+.supernova-sonata {
+  position: absolute;
+  top: 615px;
+  left: 1056px;
+  font-weight: 300;
+  z-index: 1;
+}
+.meteor-metal {
+  top: 519px;
+  left: 717px;
+  display: inline-block;
+  min-width: 98px;
+}
+.planetary-psychedelia,
+.these-intergalactic-music {
+  position: absolute;
+  top: 610px;
+  left: 367px;
+  font-weight: 300;
+  z-index: 1;
+}
+.these-intergalactic-music {
+  top: 81px;
+  left: 22px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 626px;
+}
+.navigation1,
+.root2 {
+  max-width: 100%;
+  overflow: hidden;
+}
+.navigation1 {
+  height: 1080px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-darkorange);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-helvetica);
+}
+.root2 {
+  width: 1920px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1650px) {
+  .music3 {
+    font-size: var(--font-size-13xl);
+  }
+  .artists2,
+  .contact2,
+  .home2 {
+    font-size: var(--font-size-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .music3 {
+    font-size: var(--font-size-32xl);
+  }
+  .artists2,
+  .contact2,
+  .home2 {
+    font-size: var(--font-size-7xl);
+  }
+}
